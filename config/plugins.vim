@@ -6,7 +6,12 @@ if empty(glob(stdpath('data') . '\site\autoload\plug.vim'))
 else
     call plug#begin(stdpath('data').'\plugged')
     Plug 'morhetz/gruvbox'
+    Plug 'dracula/vim'
     Plug 'liuchengxu/space-vim-theme'
+    Plug 'itchyny/lightline.vim'
+    Plug 'mengelbrecht/lightline-bufferline'
+    Plug 'shinchu/lightline-gruvbox.vim'
+    Plug 'mhinz/vim-startify'
     Plug 'jiangmiao/auto-pairs'
     Plug 'preservim/nerdcommenter'
     Plug 'norcalli/nvim-colorizer.lua'
@@ -16,10 +21,7 @@ else
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'mbbill/undotree'
     Plug 'tpope/vim-surround'
-    Plug 'mhinz/vim-startify'
-    Plug 'itchyny/lightline.vim'
-    Plug 'mengelbrecht/lightline-bufferline'
-    Plug 'shinchu/lightline-gruvbox.vim'
+
     call plug#end()
 endif
 

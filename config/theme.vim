@@ -1,5 +1,6 @@
 "colorscheme gruvbox
-colorscheme space_vim_theme
+"colorscheme space_vim_theme
+colorscheme dracula
 
 if(has("termguicolors"))
     set termguicolors
