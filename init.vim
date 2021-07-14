@@ -10,6 +10,8 @@ if !empty(glob(stdpath('data').'\plugged'))
     source ~\AppData\Local\nvim\config\start-screen.vim
     " Nvim-tree
     source ~\AppData\Local\nvim\config\nvim-tree.vim
+    " Ctrl-p
+    "source ~\AppData\Local\nvim\config\ctrlp.vim
     " Statusline
     source ~\AppData\Local\nvim\config\statusline.vim
     " Theme
