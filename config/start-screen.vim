@@ -44,6 +44,7 @@ let g:startify_lists = [
 let g:startify_bookmarks = [
             \   {'i': '~\AppData\Local\nvim\init.vim'},
             \   {'p': '~\AppData\Local\nvim\config\plugins.vim'},
+            \   {'o': '~\Appdata\Local\nvim\config\options.vim'},
             \   ]
 
 let g:custom_header = [
