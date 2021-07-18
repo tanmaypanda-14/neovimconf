@@ -8,6 +8,8 @@ if !empty(glob(stdpath('data').'\plugged'))
     "source ~\AppData\Local\nvim\config\general.vim
     " Startify
     source ~\AppData\Local\nvim\config\start-screen.vim
+    "Telescope
+    source ~\AppData\Local\nvim\config\telescope.vim
     " Nvim-tree
     source ~\AppData\Local\nvim\config\nvim-tree.vim
     " Integrated-Terminal

@@ -5,6 +5,13 @@ if empty(glob(stdpath('data') . '\site\autoload\plug.vim'))
     " Enable plugins if vim-plug is installed
 else
     call plug#begin(stdpath('data').'\plugged')
+    "Autocompletion
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    "Telescope
+    Plug 'nvim-lua/popup.nvim'
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-telescope/telescope.nvim'
+    "Common
     Plug 'morhetz/gruvbox'
     Plug 'dracula/vim'
     Plug 'liuchengxu/space-vim-theme'

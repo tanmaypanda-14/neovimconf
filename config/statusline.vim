@@ -1,6 +1,6 @@
 let g:lightline = {
       \ 'colorscheme': 'dracula',
-      \ 'active': {
+	  \ 'active': {
       \   'left': [ [ 'mode', 'paste' ], [ 'readonly', 'filename', 'modified' ] ]
       \ },
       \ 'tabline': {
