@@ -25,7 +25,7 @@ else
     Plug 'norcalli/nvim-colorizer.lua'
     Plug 'ryanoasis/vim-devicons'
     Plug 'kyazdani42/nvim-web-devicons'
-    Plug 'kyazdani42/nvim-tree.lua', {'commit': '10e845e01cb5fe62c952ccedf2edfe4ea78be727'}
+    Plug 'kyazdani42/nvim-tree.lua'
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'mbbill/undotree'
     Plug 'tpope/vim-surround'
