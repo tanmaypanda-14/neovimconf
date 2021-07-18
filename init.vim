@@ -2,12 +2,18 @@ source ~\AppData\Local\nvim\config\options.vim
 source ~\AppData\Local\nvim\config\plugins.vim
 
 if !empty(glob(stdpath('data').'\plugged'))
-    source ~\AppData\Local\nvim\config\start-screen.vim
     source ~\AppData\Local\nvim\config\telescope.vim
     source ~\AppData\Local\nvim\config\nvim-tree.vim
     source ~\AppData\Local\nvim\config\terminal.vim
     source ~\AppData\Local\nvim\config\statusline.vim
     source ~\AppData\Local\nvim\config\theme.vim
+    lua require("plugin.dashboard")
+    "lua require("plugins.nvimtree")
+    "lua require("plugins.compe")
+    "lua require("plugins.lsp")
+    "lua require("plugins.lspsaga")
+    "lua require("plugins.hop")
+
 endif
 " Keybinds
 "source ~\AppData\Local\nvim\config\keybinds.vim

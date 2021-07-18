@@ -11,6 +11,7 @@ else
     Plug 'nvim-lua/popup.nvim'
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
+    Plug 'nvim-telescope/telescope-fzy-native.nvim'
     "Common
     Plug 'morhetz/gruvbox'
     Plug 'dracula/vim'
@@ -18,7 +19,7 @@ else
     Plug 'itchyny/lightline.vim'
     Plug 'mengelbrecht/lightline-bufferline'
     Plug 'shinchu/lightline-gruvbox.vim'
-    Plug 'mhinz/vim-startify'
+    Plug 'glepnir/dashboard-nvim'
     Plug 'jiangmiao/auto-pairs'
     Plug 'preservim/nerdcommenter'
     Plug 'norcalli/nvim-colorizer.lua'
