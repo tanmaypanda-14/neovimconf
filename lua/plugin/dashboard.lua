@@ -18,7 +18,7 @@ g.dashboard_custom_header = {
     " ⠙⠃   ⣼⣿⡟  ⠈⠻⣿⣿⣦⣌⡇⠻⣿⣿⣷⣿⣿⣿ ⣿⣿⡇ ⠛⠻⢷⣄ ",
     "      ⢻⣿⣿⣄   ⠈⠻⣿⣿⣿⣷⣿⣿⣿⣿⣿⡟ ⠫⢿⣿⡆     ",
     "       ⠻⣿⣿⣿⣿⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⡟⢀⣀⣤⣾⡿⠃     ",
-    "                                   "
+    "         uneconomicalfairy14       "
 }
 
 g.dashboard_custom_section = {
@@ -45,7 +45,6 @@ g.dashboard_custom_footer = {
   --   command = "Telescope find_files cwd=" .. CONFIG_PATH,
   -- },
   -- e = {description = {'  Marks              '}, command = 'Telescope marks'}
-  vim.cmd "let g:dashboard_session_directory = '~/AppData/Local/nvim-data/.session/'"
   vim.cmd "let packages = len(globpath('~/AppData/Local/nvim-data/plugged','*', 0, 1))"
 
   vim.api.nvim_exec(
