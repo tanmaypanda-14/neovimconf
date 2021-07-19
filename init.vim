@@ -7,6 +7,7 @@ if !empty(glob(stdpath('data').'\plugged'))
     source ~\AppData\Local\nvim\config\terminal.vim
     source ~\AppData\Local\nvim\config\statusline.vim
     source ~\AppData\Local\nvim\config\theme.vim
+    source ~\AppData\Local\nvim\config\git.vim
     lua require("plugin.dashboard")
     "lua require("plugins.nvimtree")
     "lua require("plugins.compe")
@@ -16,6 +17,6 @@ if !empty(glob(stdpath('data').'\plugged'))
 
 endif
 " Keybinds
-"source ~\AppData\Local\nvim\config\keybinds.vim
+source ~\AppData\Local\nvim\config\keybindings.vim
 " Autocommands
 source ~\AppData\Local\nvim\config\autocommands.vim

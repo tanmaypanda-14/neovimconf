@@ -12,14 +12,22 @@ else
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'nvim-telescope/telescope-fzy-native.nvim'
-    "Common
+    "Themes
     Plug 'morhetz/gruvbox'
     Plug 'dracula/vim'
     Plug 'liuchengxu/space-vim-theme'
+    "Lightline
     Plug 'itchyny/lightline.vim'
     Plug 'mengelbrecht/lightline-bufferline'
     Plug 'shinchu/lightline-gruvbox.vim'
+    "Git
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
+    "Dashboard
     Plug 'glepnir/dashboard-nvim'
+    "making my life easier
     Plug 'jiangmiao/auto-pairs'
     Plug 'preservim/nerdcommenter'
     Plug 'norcalli/nvim-colorizer.lua'
@@ -29,7 +37,6 @@ else
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'mbbill/undotree'
     Plug 'tpope/vim-surround'
-
     call plug#end()
 endif
 
