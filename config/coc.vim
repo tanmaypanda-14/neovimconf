@@ -7,7 +7,8 @@ let g:coc_global_extensions = [
       \ 'coc-lua',
       \ 'coc-html',
       \ 'coc-css',
-      \ 'coc-tsserver'
+      \ 'coc-tsserver',
+      \ 'coc-markdownlint',
       \ 'coc-json']
 " " To go back to previous state use Ctrl+O
 nmap <silent><leader>gd <Plug>(coc-definition)
