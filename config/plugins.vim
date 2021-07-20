@@ -26,6 +26,8 @@ else
     "Dashboard
     Plug 'glepnir/dashboard-nvim'
     "making my life easier
+    Plug 'jmcantrell/vim-virtualenv'
+    Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
     Plug 'jiangmiao/auto-pairs'
     Plug 'preservim/nerdcommenter'
     Plug 'norcalli/nvim-colorizer.lua'
