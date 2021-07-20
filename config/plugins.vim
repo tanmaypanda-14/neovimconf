@@ -13,13 +13,11 @@ else
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'nvim-telescope/telescope-fzy-native.nvim'
     "Themes
-    Plug 'morhetz/gruvbox'
     Plug 'dracula/vim'
-    Plug 'liuchengxu/space-vim-theme'
+    Plug 'folke/tokyonight.nvim'
     "Lightline
     Plug 'itchyny/lightline.vim'
     Plug 'mengelbrecht/lightline-bufferline'
-    Plug 'shinchu/lightline-gruvbox.vim'
     "Git
     Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-fugitive'
@@ -35,7 +33,6 @@ else
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'kyazdani42/nvim-tree.lua'
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-    Plug 'mbbill/undotree'
     Plug 'tpope/vim-surround'
     call plug#end()
 endif

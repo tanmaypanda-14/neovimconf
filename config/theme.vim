@@ -1,7 +1,13 @@
 "colorscheme gruvbox
 "colorscheme space_vim_theme
-colorscheme dracula
+"colorscheme dracula
+let g:tokyonight_style = "day"
+let g:tokyonight_italic_functions = 0
+let g:tokyonight_sidebars = [ "qf", "vista_kind", "terminal", "packer" ]
 
+" Load the colorscheme
+colorscheme tokyonight
+"colorscheme zephyr
 if(has("termguicolors"))
     set termguicolors
 endif
