@@ -8,6 +8,7 @@ if !empty(glob(stdpath('data').'\plugged'))
     source ~\AppData\Local\nvim\config\statusline.vim
     source ~\AppData\Local\nvim\config\theme.vim
     source ~\AppData\Local\nvim\config\git.vim
+    source ~\AppData\Local\nvim\config\coc.vim
     lua require("plugin.dashboard")
     "lua require("plugins.nvimtree")
     "lua require("plugins.compe")
