@@ -29,22 +29,11 @@ g.dashboard_custom_section = {
     e = {description = {"           Bookmarks          "}, command = "Telescope marks"},
     f = {description = {"           Plugins            "}, command = "e ~/AppData/Local/nvim/config/plugins.vim"}
 }
-  --f = {
-  --   description = { "  Neovim Config Files" },
-  --   command = "Telescope find_files cwd=" .. CONFIG_PATH,
-  -- },
-  -- e = {description = {'  Marks              '}, command = 'Telescope marks'}
 
 g.dashboard_custom_footer = {
-    --"NvChad Loaded " .. plugins_count .. " plugins",
     "Uneconomicalfairy14"
 }
 
-  -- f = {
-  --   description = { "  Neovim Config Files" },
-  --   command = "Telescope find_files cwd=" .. CONFIG_PATH,
-  -- },
-  -- e = {description = {'  Marks              '}, command = 'Telescope marks'}
   vim.cmd "let packages = len(globpath('~/AppData/Local/nvim-data/plugged','*', 0, 1))"
 
   vim.api.nvim_exec(
@@ -53,7 +42,3 @@ g.dashboard_custom_footer = {
 ]],
     false
   )
-
-
-  -- file_browser = {description = {' File Browser'}, command = 'Telescope find_files'},
-  -- vim.g.dashboard_session_directory = CACHE_PATH..'/session'
