@@ -1,7 +1,7 @@
 "colorscheme gruvbox
 "colorscheme space_vim_theme
 "colorscheme dracula
-let g:tokyonight_style = "day"
+let g:tokyonight_style = "storm"
 let g:tokyonight_italic_functions = 0
 let g:tokyonight_sidebars = [ "qf", "vista_kind", "terminal", "packer" ]
 
@@ -11,7 +11,6 @@ colorscheme tokyonight
 if(has("termguicolors"))
     set termguicolors
 endif
-lua require 'colorizer'.setup()
 
 " Devicons
 let g:webdevicons_enable = 1

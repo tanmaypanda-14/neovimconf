@@ -11,7 +11,7 @@ if !empty(glob(stdpath('data').'\plugged'))
     source ~\AppData\Local\nvim\config\coc.vim
     source ~\AppData\Local\nvim\config\virtualenv.vim
     lua require("plugin.dashboard")
-    "lua require("plugins.nvimtree")
+    lua require("plugin.colorizer")
     "lua require("plugins.compe")
     "lua require("plugins.lsp")
     "lua require("plugins.lspsaga")
